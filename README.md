@@ -7,17 +7,16 @@
   <a href="https://www.reddit.com/r/kilocode/"><img src="https://img.shields.io/reddit/subreddit-subscribers/kilocode?style=flat&logo=reddit&logoColor=white" alt="Reddit"></a>
 </p>
 
-# 🚀 Kilo Code
+# 🚀 EU Code
 
-> Open-source VS Code AI agent. Merged features from [Roo Code](https://github.com/RooVetGit/Roo-Code) and [Cline](https://github.com/cline/cline).
+> Lightweight VS Code AI agent. A stripped-down fork of [Kilo Code](https://github.com/Kilo-Org/kilocode) with bloat removed for a clean, focused development experience.
 
 - ✨ Generate code from natural language
-- ✅ Checks its own work
+- ✅ Checks its own work  
 - 🧪 Run terminal commands
 - 🌐 Automate the browser
 - 🤖 Latest AI models
-- 🎁 API keys optional
-- 💡 **$20 free credits for Gemini 2.5 Pro, Claude 4 Sonnet & Opus, and GPT-4.1**<br/>Share feedback and earn more credits!
+- 🎯 **Lightweight and focused** - Bloat removed for better performance
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Kilo-Org/kilocode/refs/heads/main/kilo.gif" width="100%" />
@@ -34,7 +33,19 @@
 - **MCP Server Marketplace**: Easily find, and use MCP servers to extend the agent capabilities.
 - **Multi Mode**: Plan with Architect, Code with Coder, and Debug with Debugger, and make your own custom modes.
 
-## How to get started with Kilo Code
+## What's Been Removed
+
+This lightweight fork removes the following bloat components while maintaining all core functionality:
+
+- **Web applications** (1.4MB+) - Separate web interfaces not needed for VS Code extension
+- **Evaluation infrastructure** (312KB) - Testing/benchmarking tools for development
+- **Development tooling** (716KB) - E2E testing, Storybook documentation
+- **Large demo assets** (13.5MB) - Promotional GIFs and videos
+- **Development artifacts** - Test files, changeset configs, deployment files
+
+**Result**: ~16MB+ reduction in source code size while maintaining full VS Code extension functionality.
+
+## How to get started with EU Code
 
 1.  Install the Kilo Code extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code).
 2.  Log in with your Google Account to get $20 in free Claude 4 Sonnet & Opus credits.

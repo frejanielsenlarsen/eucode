@@ -1,7 +1,6 @@
 packages:
   - src
   - webview-ui
-  - apps/*
   - packages/*
 
 onlyBuiltDependencies:
